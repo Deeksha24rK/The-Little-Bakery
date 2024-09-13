@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Deeksha" />
+    <meta name="description" content="Contact information for the The Litle Bakery" />
+    <title>TLB - Contact Us</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#aboutTLB">About TLB</a></li>
+                <li><a href="/#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a message</legend>
+
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" autofocus required placeholder="Your name" />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Your email" />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="message">Your Message:</label>
+                        <br />
+                        <textarea name="message" id="message" rows="10" cols="30"
+                            placeholder="Type your message here"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                123 Main Street, Apt 4B Springfield, IL 62704
+                <br />
+                Mangalore , MO:55555-5555
+                <br />
+                <br />
+                Phone: <a href="tel:+55555-5555">55555-5555</a>
+            </address>
+        </section>
+        <p><a href="#">Back to top</a></p>
+    </main>
+
+    <hr />
+    <p>Copyright &copy; The Little Bakery</p>
+</body>
+
+</html>
